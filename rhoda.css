@@ -1,0 +1,616 @@
+
+body{
+	margin: 0px;
+	position: relative;
+	box-sizing: border-box;
+}
+.clearfix{
+	clear: both;
+}
+
+.ba1{
+	width: 100%;
+	height: 130vh;
+background-image: url(img/pic3.jpg);
+background-attachment: fixed;
+background-size: cover !important;
+font-family: 'Roboto', sans-serif;
+
+}
+.con ul li{
+	color: white;
+	list-style-type: none;
+	float: left;
+	margin-left: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.ba1 ul li input{
+	background-color: inherit;
+	border:none; 
+	border-bottom: 1px solid white;
+}
+.mar{
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+}
+.mar ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 25px;
+	margin-top: 70px;
+}
+.mar ul li a{
+	text-decoration: none;
+	color: white;
+
+
+}
+.mar ul li a.active{
+   color: gold;
+}
+.mar ul li a strong
+{
+	font-size: 30px;
+	color: #fff;
+}
+.mar ul li a:hover{
+	color: gold;
+}
+.mar ul li a strong{
+	color: none;
+}
+ strong{
+	font-weight: 800;
+	font-family:'Roboto', sans-serif;
+	font-size: 150px;
+
+}
+#go{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	animation: go;
+	opacity: 1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+#taxi{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: -230px;
+	animation: taxi;
+	opacity: 1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.lorem{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	animation: lorem;
+	opacity: 1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.elit{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: -38px;
+	animation: elit;
+	opacity: 1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes go{
+	0%, 49%{opacity: 1;}
+	50%, 100%{opacity: 0;}
+}
+@keyframes taxi{
+	0%, 49%{opacity: 0;}
+	50%, 100%{opacity: 1;}
+}
+@keyframes lorem{
+	0%, 49%{opacity: 1;}
+	50%, 100%{opacity: 0;}
+}
+@keyframes elit{
+	0%, 49%{opacity: 0;}
+	50%, 100%{opacity: 1;}
+}
+.button{
+	margin-top: -65px;
+}
+.rea{
+	color: #fff;
+	width: 160px;
+	margin-top:-150px;
+	margin-left: 430px;
+	height: 45px;
+    background-color: yellow;
+    border: none;
+    font-size: 16px;
+}
+.rea:hover{
+	color: #fff;
+	border: 3px solid white;
+	background-color: inherit;
+}
+.cycle{
+	width: 10px;
+	height: 10px;
+	background-color: yellow;
+	border-radius: 50%;
+	margin-left: 500px;
+	margin-top: 15px;
+
+}.cycle1{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 520px;
+	margin-top: -10px;
+
+}
+.man{
+background-color: #fff;
+margin: auto;
+margin-top:10px;
+height:auto;
+} 
+.mary{
+	width: 100%;
+	height: auto;
+}
+
+.mary div{
+	width: 20%;
+	height: 350px;
+	border: solid 1px grey;
+	float: left;
+	margin-left: 30px;
+
+}
+.mary div img{
+	width:80%;
+	height: 40%;
+	margin: 20px;
+	
+}
+.mary div:hover{
+ 	background-color: gold;
+ 	color: #fff;
+ }
+
+.tom{
+	background-image: url(img/0.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 130vh;
+	margin-top: 10px;
+	
+	color: #fff;
+}
+.tom div{
+	float: left;
+	margin: 15px;
+}
+
+
+.bat{
+	width: 100%;
+	height:100vh;
+	margin-top: 250px;
+	background-color: white;
+}
+
+
+
+
+.foy{
+	width:500px;
+	height:370px;
+	margin-top: 50px;
+	background-image: url(img/m.jpg);
+	margin-top: -167px;
+	margin-left: 20px; 
+}
+.siw{
+	width: 150px;
+	height: 2px;
+	margin-left:600px;
+	margin-top: -350px;
+
+
+}.pl{
+	width: 100%;
+	height: auto;
+	background-color: #ccc;
+	font-size: 30px;
+	margin-top: -70px;
+	font-family: 'Roboto,sans-serif'
+
+
+}
+.galla{
+	margin-top: 70px;
+	padding-top: 10px;
+
+}
+.pl div img
+{/*width: 100%;*/
+	/*height: 100px;*/
+	margin-left: 60px;
+	float: left;
+	margin: 2px;
+}
+
+.clearfix{
+	clear: both;
+}
+.im {
+	width:95%;
+	height: auto;
+	margin: 10px
+}
+.im div {
+	width: 20%;
+	height: 150px;
+	float: left;
+	margin-left:6px
+
+}
+.im div img {
+	width: 100%;
+	height: 100%;
+	hover
+}
+
+.im2 {
+	width:95%;
+	height: auto;
+	margin: 10px
+}
+.im2 div {
+	width: 20%;
+	height: 150px;
+	float: left;
+	margin-left:6px
+}
+.im2 div img {
+	width: 100%;
+	height: 100%;
+	hover
+}
+.im3 {
+	width:95%;
+	height: auto;
+	margin: 10px
+}
+.im3 div {
+	width: 20%;
+	height: 150px;
+	float: left;
+	margin-left:6px
+}
+.im3 div img {
+	width: 100%;
+	height: 100%;
+	hover
+}
+.work{
+	width: 100%
+	height:;
+	background-color: #ffffff;
+}
+.work .allofrhoda div{
+	float: left;
+	margin-left: 250px;
+	margin: 5px;
+	padding: 5px;
+	
+
+}
+.work,.gol p{
+	margin: 25px;
+	margin-left: -70px;
+
+
+}
+.hey{
+	background-color: red;
+	width: 100%;
+	height: auto;
+}
+.test{
+	background-color: #ffffff;
+	width: 100%;
+	height: auto;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+    margin-top: -20px;
+    border: none;
+}
+.say{
+	width:90%;
+	height: auto;
+	margin: 30px
+}
+.latest div{
+	width:150px;
+	height:250px;
+	border: 1px solid grey;
+	margin-left: 30px;
+
+}
+.say div {
+	float: left;
+
+}
+.say div img{
+	width: 85%;
+	margin:10px;
+}
+.any{
+	width: 100%;
+	height:600px;
+	background-image: url('img/pic3.jpg');
+	background-size: cover;
+	background-position: fixed;
+	
+}
+.any h2{
+	font-size: 50px;
+	font-family: sans-serif;
+	color: #ccc;
+	padding-top: 25px;
+
+
+}
+
+.any1 div img{
+	width:100%;
+	height: 100%;
+    
+}
+
+.any1{
+	width: 100%;
+	height: auto;
+}
+.any1 div{
+	width:20%;
+	height: 300px;
+	float: left;
+	margin-left: 30px;
+
+}
+/*.try{
+	width: 100%
+	height:100vh;
+	background-color: #ffffff;
+}*/
+.flip-container1{
+	transform:column rotateY(100deg)
+}
+.flip-container2{
+	transform: column rotateY(100deg)
+
+}
+.try{
+	width: 100%
+	height:100vh;
+	background-color: #ffffff;
+	background-position: fixed;
+	background-attachment: cover;
+}
+.try div img {
+	width: 40%;
+	height: 100%;
+	margin: 20px;
+	margin-left: 50px;
+}
+.try div img:hover;{
+
+
+}
+.try div h4{
+	margin-left: 480px;
+	margin-top: -280px;
+}
+.try div  div p{
+	margin-left:470px;
+	margin-top: -20px; 
+
+}
+.tryp1  div img{
+margin-top: 150px;
+margin-left: 500px;
+}
+.tryp1 div h4{
+	margin-left: 140px;
+	font-family: sans-serif;
+}
+.tryp2 div p{
+	margin-left: 120px;
+}
+.trip h4{
+font-family: sans-serif;
+}
+/*.fit{
+	width:100%;
+	height: 100vh;
+	background-image:url(img/p5.jpg);
+	background-attachment: fixed;
+	background-position:cover; 
+}*/
+/*tip{
+	background-attachment: fixed;
+	background-position: cover;
+	width: 100px;
+	height: 100vh;
+	background-
+*/
+ 
+#you{
+	background-image: url('img/pic3.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 160vh;
+    margin-top: 150px;
+}
+#you div h4{
+	color: white;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+#you div p{
+	color: white;
+
+}
+.allwry{
+	margin-left: 50px;
+}
+.wry{
+	height: 480px;
+	width: 340px;
+	background-color: white;
+	margin-top: -590px;
+	margin-left: 110px;
+	border-radius: 5px;
+}
+.wry h3{
+	text-align: center;
+	padding: 1px;
+	color: grey;
+	font-family:sans-serif;
+}
+.wryp{
+	height: 480px;
+	width: 340px;
+	background-color: white;
+	margin-top: -498px;
+	margin-left: 451px;
+	border-radius: 5px;
+}
+.wryp h3{
+	text-align: center;
+	padding: 1px;
+	color: grey;
+	font-family: sans-serif;
+}
+.top1{
+	background-color: white;
+	width: 100%;
+	height: 150vh;
+	margin-top: 10px;
+    
+}
+.top1 .top h1{
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 50px;
+	color: grey;
+}
+.top1 .top p{
+	color: #ccc;
+}
+.dove{
+	margin:65px;
+	float: left;
+}
+.dove2{
+	margin-left: 280px;
+	margin-top: -160px
+}
+.dove3{
+	margin-left: 500px;
+	margin-top: -120px
+}
+.dove3 h3 hover{
+	background-color: gold;
+}
+.dove4{
+	margin-top: 100px;
+}
+.dove4 input{
+	background-color: inherit;
+	border:none;
+	border-bottom: 2px solid;
+	margin:40px;
+
+}
+.dove4 label{
+	border:none;
+	background-color: inherit;
+}
+.but{
+	color: white;
+	width: 60px;
+	height: 50px;
+	font-size: 60px;
+	background-color: yellow;
+	border:none;
+	text-transform: 5px;
+}
+.but hover{
+	color: #fff;
+	border:3px solid white;
+	background-color: yellow;
+}
+.dove5 .dol{
+	width: 900px;
+	height: 500px;
+	background-color: #ccc;
+}
+#last{
+	background-color: grey;
+	background-attachment: fixed;
+	background-position: cover;
+	width: 100%
+	height:150vh;
+	padding-top: 50px;
+	margin: 15px
+	text-align:justify;
+	
+}
+#last.loop{
+	margin-bottom: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
